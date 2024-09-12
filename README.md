@@ -24,7 +24,7 @@ To run this project locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Nethmi-Randi/Photography-LandingPage.git
+   git clone https://github.com/Nethmi-Randi/Photography-Landing-page.git
 
 In the project directory, you can run:
 
