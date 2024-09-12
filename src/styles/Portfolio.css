@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+.photography-section {
+    display: flex;
+    width: 100%;  
+    height: 90.5vh; 
+    position: relative;
+    color: white;
+    overflow: hidden; 
+}
+
+.title1,.title2{
+    font-family: 'Cormorant', serif; 
+    font-size: 80px;
+    font-weight: 200;
+    line-height: 108.99px;
+    color: rgb(255, 255, 255); 
+    margin-bottom: 1rem; 
+    position: relative;
+    z-index: 10;
+}
+
+.title1 {
+    top: -60px; 
+    left: 50px;  
+}
+
+.title2 { 
+    top: -140px; 
+    left: 170px;     
+}
+  
+.content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+  
+.left-side {
+    flex-basis: 49%; 
+    background-color: #324a5f;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+  }
+  
+.right-side {
+    flex-basis: 51%; 
+    background-color:  #0D0F11;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+.portfolio-image {
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    width: 800px; 
+    height: auto; 
+    object-fit: cover;
+  }
+  
+.description {
+    font-family: 'Lato', sans-serif;
+    position: absolute; 
+    top: 320px; 
+    left: 750px; 
+    width: 250px;
+    color: white;
+    font-size: 1rem;
+    opacity: 0.4;
+  }
+  
+.order-now {
+    font-family: 'Lato', sans-serif;
+    margin-top: 1rem;
+    padding: 0.5rem 2rem;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    position: relative; 
+    top: 180px; 
+    right: 100px; 
+    opacity: 0.5;    
+  }
+  
+.social-links {
+    position: absolute;
+    right: 4.5rem;
+    top: 45%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 2rem; 
+}
+
+.social-links::before, .social-links::after {
+    content: "";
+    width: 1px; 
+    height: 100px; 
+    background-color: rgb(100, 100, 100); 
+    opacity: 75%;
+}
+
+.twitter_icon,.linkdin_icon{
+    width: 20px; 
+    height: 20px;
+ }
+
+.google_icon,.facebook_icon{
+    width: 30px; 
+    height: 30px;
+ }
+
+
+
+
+  

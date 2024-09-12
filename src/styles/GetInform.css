@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@100;200;300;400;500;600;700&display=swap');
+
+.form-section {
+  background-color: #2D4752; 
+  text-align: center;
+  padding: 40px 0px; 
+  font-family: 'Cormorant', serif;
+  width: 55%; 
+  height: 350px;
+  margin: auto; 
+  position: relative;
+  top: 80px;  
+}
+
+.form-title {
+  font-size: 45px; 
+  font-weight: 400;
+  color: white;
+  margin-top: 0px;
+  margin-left: 90px;
+  margin-right:100px;
+  margin-bottom: 70px;  
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-left: 80px; 
+}
+
+.email-input {
+  padding: 15px 20px; 
+  font-size: 15px;
+  border: none;
+  color: #000000;
+  width: 400px; 
+  outline: none;
+}
+
+.email-input::placeholder {
+  color:  #898D92;  
+}
+
+.submit-btn { 
+  background-color:#233942;
+  color: white;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  width:100px;
+  height:40px;
+  position: relative;
+  left:-105px;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #2D4752;
+  color: white;
+}
+
+.form-disclaimer {
+  color: white;
+  font-size: 13px;
+  font-weight: 300;
+  margin-top: 50px;
+  font-family: 'Lato', sans-serif;
+  margin-left: 90px;
+  margin-right:100px;
+}
+
+.data-policy-link {
+  color: white;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.data-policy-link:hover {
+  color: #cccccc;
+}
+
+.email-error {
+  position: absolute;
+  left: 0;
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 5px 10px;
+  border: 1px solid #f5c6cb;
+  border-radius: 5px;
+  font-size: 0.875rem;
+  margin-top: -60px;
+  margin-left: 120px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+.stat-item {
+    text-align: right;
+    border-right: 1.5px solid #ffffff;
+    padding: 10px 30px;
+    margin-top: -30px;
+    margin-bottom: 10px;
+    flex: 1; 
+    color: #ffffff;
+}
+
+.stat-item h3 {
+    font-family: 'Cormorant', serif;
+    font-size: 3rem;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+.stat-item p {
+    font-size: 1rem; 
+    font-family: 'Lato', sans-serif;   
+}

@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@100;200;300;400;500;600;700&display=swap');
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    background-color: #000000; 
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    z-index: 1000; 
+    color: white;
+    text-align: center;
+    width:180px
+  }
+  
+  .whatsapp-button img {
+    margin-right: 10px;
+    width: 60px;
+    height: 60px; 
+  }
+  
+  .whatsapp-text {
+    font-size: 15px; 
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  
+
+  

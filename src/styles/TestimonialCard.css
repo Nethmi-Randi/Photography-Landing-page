@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+.testimonial-card {
+    background-color:  #233942;
+    color: #fff;
+    padding: 20px;
+    text-align:left; 
+    margin-left: 5px;
+    width: 295px;
+    height: 300px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px
+  }
+  
+  .testimonial-img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+
+  .name {
+    font-family: 'Cormorant', serif;
+    font-size: 24px;
+    font-weight: 600;
+    position: relative;
+    top:-90px;
+    left:100px;
+  }
+
+  .platform {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    position: relative;
+    top:-110px;
+    left:100px
+  }
+  
+  hr {
+    border: 1px solid #FFFFFF57;
+    position: relative;
+    top:-80px;
+  }
+  
+  .testimonial-text {
+    font-size: 0.9rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 26px;
+    position: relative;
+    top:-50px;
+  }
+  
+  
+  
+  
+  
+  

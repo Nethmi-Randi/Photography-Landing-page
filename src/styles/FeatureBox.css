@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+.feature-box {
+  background-color: #0D0F11;
+  padding: 20px;
+  text-align: left;
+  color: #898D92;
+  border: 2px solid transparent; 
+  transition: all 0.3s ease; 
+  font-family: 'Lato', sans-serif;
+  position:relative;
+  width: 250px;
+  height: 180px; 
+  gap: 20px; 
+}
+
+.feature-box:hover {
+  border: 2px solid #233942; 
+  color: #ffffff; 
+}
+
+.feature-title {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.feature-description {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-top: 10px;
+  width: 200px;
+  height: 200px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 10px;
+}
+
+.feature-box.Agency{
+  
+  top: 35px;
+  left: 10px;
+  padding-right: 30px;
+  margin-right: 20px;
+}
+
+.feature-box.Choose{
+  top: 35px;
+  left: 150px; 
+}
+
+.feature-box.Satisfaction{
+  top: 320px;
+  left: -935px; 
+}
+
+.feature-box.Quality{
+  top: 320px;
+  left: -750px; 
+}
+
+.feature-box.Creativity{
+  top: 320px;
+  left: -580px;
+}

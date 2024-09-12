@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@100;200;300;400;500;600;700&display=swap');
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+  
+  .modal-content {
+    background-color: rgb(158, 158, 158);
+    padding: 30px;
+    border-radius: 8px;
+    width: 50%;   
+  }
+  
+  .modal-content h2 {
+    text-align: left;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #233942;
+  }
+  
+  .modal-content .form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .modal-content label {
+    font-size: 16px;
+    font-weight: 100;
+    color: rgb(0, 0, 0);
+    margin-right: 10px;
+    width: 150px; 
+    text-align: right; 
+  }
+  
+  .modal-content input,
+  .modal-content textarea {
+    flex: 1; 
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    margin-left: 10px; 
+  }
+  
+  .modal-content input:focus,
+  .modal-content textarea:focus {
+    border-color: #233942;
+  }
+  
+  .modal-content textarea {
+    height: 100px;
+    resize: vertical;
+  }
+
+  .error-message-name{
+    position: absolute;
+    left: 600px;
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 5px 10px;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+    font-size: 0.875rem;
+    margin-top: -60px;
+    margin-left: 120px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .error-message-phone{
+    position: absolute;
+    left: 600px;
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 5px 10px;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+    font-size: 0.875rem;
+    margin-top: -60px;
+    margin-left: 120px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .error-message-message{
+    position: absolute;
+    left: 600px;
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 5px 10px;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+    font-size: 0.875rem;
+    margin-top: -142px;
+    margin-left: 120px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  
+  .send-btn { 
+    margin-left: -250px;
+    font-family: 'Cormorant', serif; 
+    margin-top: 20px;
+    width: 20%;
+    padding: 12px;
+    background-color: #233942;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .modal-content .submit-btn:hover {
+    background-color: #1b2e35;
+  }
+  
+  .close-btn {
+    font-family: 'Cormorant', serif; 
+    position: relative;
+    top: -31px; 
+    margin-left: 180px;
+    margin-top: -70px; 
+    width: 20%;
+    padding: 12px;
+    background-color: #233942;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+  
+  .close-btn:hover {
+    background-color: #bbb;
+  }
+  
+  .success-message {
+    color: #233942; 
+    font-size: 18px; 
+    margin-top: 15px; 
+    font-weight: bold;
+    text-align: center; 
+  }
